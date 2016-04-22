@@ -1,0 +1,50 @@
+{
+  "name": "base-middlewares",
+  "version": "0.0.1",
+  "description": "App Middlewares",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontians-web/base-middlewares.git"
+  },
+  "keywords": [
+    "npm",
+    "module"
+  ],
+  "author": "arul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frontians-web/base-middlewares/issues"
+  },
+  "homepage": "https://github.com/frontians-web/base-middlewares#readme",
+  "devDependencies": {
+    "body-parser": "^1.14.2",
+    "clear": "0.0.1",
+    "connect": "^3.4.0",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-tsc": "^1.1.4",
+    "gulp-typescript-compiler": "^1.0.1",
+    "method-override": "^2.3.5",
+    "mongojs": "^2.2.2",
+    "mongoose": "^4.3.4",
+    "source-map-support": "^0.4.0",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.12",
+    "ts-loader": "^0.8.2",
+    "gulp-typings": "^1.3.4",
+    "gulp-typescript": "^2.13.0",
+    "merge-stream": "1.0.0",
+    "errorhandler": "^1.4.3",
+    "morgan": "^1.7.0",
+    "cookie-parser": "^1.4.1",
+    "inversify": "2.0.0-beta.1"
+  }
+  
+  
+}
