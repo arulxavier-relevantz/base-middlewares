@@ -1,13 +1,15 @@
 
+
 import * as Express from "express";
 import * as BodyParser from "body-parser";
 import * as CookieParser from "cookie-parser";
 import * as morgan  from "morgan";
 import * as errorhandler from "errorhandler";
 import {IMiddlewares} from "./IMiddlewares";
-//import { inject, injectable } from "inversify";
+import { inject, injectable } from "inversify";
 //import winston from "../../config/Logger";
 
+@injectable()
 class Middlewares implements IMiddlewares {
        
     config (router: Express.Router) {

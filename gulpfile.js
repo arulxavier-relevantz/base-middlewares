@@ -11,7 +11,10 @@ gulp.task("compile", function () {
         module: "commonjs",
         target: "ES5",
         sourcemap: false,
-        logErrors: true
+        logErrors: true,
+        emitDecoratorMetadata: true,
+        experimentalAsyncFunctions: true,
+        experimentalDecorators: true
     }))
     .pipe(gulp.dest("lib"))    
 });
