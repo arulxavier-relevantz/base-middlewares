@@ -20,7 +20,7 @@
     "url": "https://github.com/frontians-web/base-middlewares/issues"
   },
   "homepage": "https://github.com/frontians-web/base-middlewares#readme",
-  "devDependencies": {
+  "Dependencies": {
     "body-parser": "^1.14.2",
     "clear": "0.0.1",
     "connect": "^3.4.0",
@@ -45,6 +45,6 @@
     "cookie-parser": "^1.4.1",
     "inversify": "2.0.0-beta.1"
   }
-  
-  
+
+
 }
