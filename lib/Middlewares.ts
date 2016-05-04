@@ -37,4 +37,4 @@ class Middlewares implements IMiddlewares {
     }
 }
 Object.seal(Middlewares);
-export {Middlewares};
+export { Middlewares };
